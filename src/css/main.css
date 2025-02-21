@@ -1,7 +1,11 @@
+* {
+    scroll-behavior: smooth;
+    scroll-padding-top: 115px;
+}
+
 body {
     background-color: #F5E4D7;
     margin: 0;
-    padding-top: 115px;
 }
 
 header {
@@ -40,7 +44,15 @@ hr {
     background-color: #E5D1D0;
 }
 
+#b, #c, #d {
+    padding-top: 10px;
+}
+
 footer {
     background-color: #BDBBB6;
     text-align: center;
+}
+
+#sakums {
+    padding-top: 115px;
 }
