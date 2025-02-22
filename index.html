@@ -5,55 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="icon" type="image/x-icon" href="src/img/logo.png">
-    <title>Marta Aleksa Valaine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>SKYOME</title>
 </head>
 <body>
     <header>
         <img src="src/img/logo.png" class="logo">
         <nav>
             <a href="#sakums">Sākums</a>
-            <a href="#b">B</a>
-            <a href="#c">C</a>
-            <a href="#d">D</a>
+            <a href="#par_skyome">Par SKYOME</a>
+            <a href="#aktuali">Aktuāli</a>
+            <a href="#merkis">Mērķis</a>
         </nav>
     </header>
     <section id="sakums">
-        <h1>Tests</h1>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
+        <div class="hero_img">
+            <div>
+                <h1>Skani brīvi -<br> klausies bez ierobežojumiem.</h1>
+                <button id="poga_par_skyome">
+                    Par SKYOME
+                    <img src="/src/img/uz_leju.png" height="70px">
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="par_skyome">
+        <div id="par_skyome_div">
+            <button id="cat_fact">Fakts par kaķiem</button>
+            <p id="izvade"></p>
+        </div>
         <hr>
     </section>
-    <section id="b">
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
-        1 <br>
+    <section id="aktuali">
+        <div id="aktuali_div">
+            <label for="menesis">Izvēlies mēnesi:</label>
+            <select name="menesis" id="menesis">
+                <option value="jan">Janvāris</option>
+                <option value="feb">Februāris</option>
+                <option value="mar">Marts</option>
+                <option value="apr">Aprīlis</option>
+                <option value="mai">Maijs</option>
+                <option value="jun">Jūnijs</option>
+                <option value="jul">Jūlijs</option>
+                <option value="aug">Augusts</option>
+                <option value="sep">Septembris</option>
+                <option value="okt">Oktobris</option>
+                <option value="nov">Novembris</option>
+                <option value="dec">Decembris</option>
+            </select>
+        </div>
         <hr>
     </section>
-    <section id="c">
-        <button type="button" id="button">Fakts par kaķiem</button>
-        <p id="izvade"></p>
-        <hr>
-    </section>
-    <section id="d">
+    <section id="merkis">
         1 <br>
         1 <br>
         1 <br>
@@ -101,7 +104,7 @@
         1 <br>
     </section>
     <footer> 
-        <p>&copy Marta Aleksa Valaine</p>
+        <p class="foot">&copy Marta Aleksa Valaine</p>
     </footer>
     <script src="src/js/script.js"></script>
 </body>

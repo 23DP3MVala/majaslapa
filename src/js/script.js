@@ -1,7 +1,7 @@
-document.getElementById("button").addEventListener("click", function () {
-    document.getElementById("izvade").innerHTML = "aa";
+document.getElementById("poga_par_skyome").addEventListener("click", function () {
+    window.location.href="#par_skyome"
 })
 
-const response = await fetch("https://catfact.ninja/fact", {
-  method: "POST",
+document.getElementById("cat_fact").addEventListener("click", function () {
+    document.getElementById("izvade").innerHTML = "aa";
 })
