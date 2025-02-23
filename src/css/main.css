@@ -73,15 +73,54 @@ h1 {
     cursor: pointer;
 }
 
+.uz_leju {
+    height: 70px;
+}
+
 hr {
     border: none;
     height: 2px;
     background-color: black;
+    margin: 1px 0;
 }
 
-#par_skyome_div, #aktuali_div, #merkis {
-    padding-top: 10px;
-    padding-left: 20px;
+.par_skyome_div, .aktuali_div, #merkis {
+    padding: 10px 20px;
+}
+
+.skyome_text_un_att, .merkis_text_un_att, .aktuals_logo {
+    display: flex;
+    font-size: 20px;
+}
+
+.kaki {
+    margin-bottom: 35px;
+}
+
+#cat_fact, #menesis {
+    background-color: #EBE7E2;
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.cilveki, .muzika {
+    max-height: 400px;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.aktuali {
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+#ikona {
+    height: 350px;
+    margin-left: 60px;
 }
 
 footer {
